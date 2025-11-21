@@ -26,7 +26,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="" />
+    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -308,13 +314,16 @@
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/noenm/Desktop/ITE/ITE 2025-2026/Zadania - projekty/Podstawy programowania/C",
+    "last_opened_file_path": "C:/Users/Maksymilian/Projekty-Studia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -367,12 +376,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.C" />
       <item itemvalue="C/C++ File.Zadanie 1.c (1)" />
       <item itemvalue="C/C++ File.Zadanie 1.c" />
       <item itemvalue="C/C++ File.Zadanie 1.cpp (1)" />
       <item itemvalue="C/C++ File.Zadanie 2.c" />
       <item itemvalue="C/C++ File.Zadanie_dodatkowe.c" />
+      <item itemvalue="CMake Application.C" />
     </list>
     <recent_temporary>
       <list>
@@ -425,6 +434,7 @@
       <workItem from="1763576256890" duration="903000" />
       <workItem from="1763638089051" duration="891000" />
       <workItem from="1763735259543" duration="277000" />
+      <workItem from="1763746661255" duration="40000" />
     </task>
     <servers />
   </component>

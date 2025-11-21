@@ -96,35 +96,105 @@ int main() {
 
     // Zadanie dodatkowe
     {
-        int rozA1, rozB1, rozA2, rozB2;
-        int A[rozA1][rozA2], B[rozB1][rozB2];
-        char operacja;
-        rozA1=2;
-        rozA2=2;
-        rozB1=2;
-        rozB2=2;
-        // printf("Podaj rozmiar macierzy A: ");
-        // scanf("%d %d", &rozA1, &rozA2);
-        // printf("Podaj rozmiar macierzy B: ");
-        // scanf("%d %d", &rozB1, &rozB2);
-        printf("Podaj operacje do wykonania na macierzach (+,  -,  *,  T: ");
-        scanf("%c", &operacja);
-        if (operacja=='+') {
-            if (rozA1==rozB1 | rozA2==rozB2) {
+        int m=3 ,n=3 , k=3, l=3, x, y; // rozmiary macierz A -> m*n,  B -> k*l, C -> x*y
+        char operacja='+';
 
+        printf("Podaj rozmiar macierzy A: ");
+        scanf("%d %d", &m, &n);
+        printf("Podaj rozmiar macierzy B: ");
+        scanf("%d %d", &k, &l);
+
+        int A[m][n];
+        int B[k][l];
+
+        // int A[3][3]={{1,2,3}, {4,5,6}, {7,8,9}};
+        // int B[3][3]={{1,2,3}, {4,5,6}, {7,8,9}};
+
+        printf("Wprowadz elementy macierzy A:\n");
+        for (int i=0; i<m; i++) {
+            for (int j=0; j<n; j++) {
+                scanf("%d", &A[i][j]);
             }
         }
-        if (operacja=='-') {
 
+        printf("Wprowadz elementy macierzy B:\n");
+        for (int i=0; i<k; i++) {
+            for (int j=0; j<l; j++) {
+                scanf("%d", &B[i][j]);
+            }
         }
-        if (operacja=='*') {
 
-        }
-        if (toupper(operacja)=='T') {
 
+        printf("Podaj operacje do wykonania na macierzach (+,  -,  *,  T): ");
+        scanf(" %c", &operacja);
+
+        if (operacja=='+') {
+            x=m;
+            y=n;
         }
-        else {
-            printf("Błędna operacja!");
+
+        else if (operacja=='-') {
+            x=m;
+            y=n;
+        }
+
+        else if (operacja=='*') {
+            if (n!=k)
+                printf("Bledne rozmiary");
+            else {
+                x=m;
+                y=l;
+            }
+        }
+
+        else if (toupper(operacja)=='T') {
+            x=n;
+            y=m;
+        }
+
+        int C[x][y];
+
+        if (operacja=='+') {
+            for (int i=0; i<x; i++) {
+                for (int j=0; j<y; j++) {
+                    C[i][j]=A[i][j]+B[i][j];
+                }
+            }
+        }
+
+        else if (operacja=='-') {
+            for (int i=0; i<x; i++) {
+                for (int j=0; j<y; j++) {
+                    C[i][j]=A[i][j]-B[i][j];
+                }
+            }
+        }
+
+        else if (operacja=='*') {
+            for (int i=0; i<x; i++) {
+                for (int j=0; j<y; j++) {
+                    C[i][j]=0;
+                    for (int k=0; k<n; k++) {
+                        C[i][j]+=A[i][j]*B[i][j];
+                    }
+                }
+            }
+        }
+
+        else if (operacja=='T') {
+            for (int i=0; i<x; i++) {
+                for (int j=0; j<y; j++) {
+                    C[j][i]=A[i][j];
+                }
+            }
+        }
+
+        for (int i=0; i<x; i++) {
+            printf("|");
+            for (int j=0; j<y; j++) {
+                printf("%5d", C[i][j]);
+            }
+            printf("|\n");
         }
     }
 }
@@ -196,8 +266,6 @@ void wypisanie(double A[], double B[], double C[], int n) {
 int pot_liczby(int a, int n) {
     if (n==0)
         return 1;
-    else if (n>0)
-        return a*pot_liczby(a, n-1);
     else
-        return a/n;
+        return a*pot_liczby(a, n-1);
 }

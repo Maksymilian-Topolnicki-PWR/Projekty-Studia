@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\noenm\Desktop\ITE\ITE 2025-2026\Zadania - projekty\Podstawy programowania\C Select CMakeLists.txt

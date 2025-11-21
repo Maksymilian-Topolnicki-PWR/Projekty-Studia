@@ -143,5 +143,5 @@ void wypisanie(double A[], double B[], double C[], int n) {
         if (i<n-1)
             printf(", ");
     }
-    printf("}blablabla");
+    printf("}");
 }

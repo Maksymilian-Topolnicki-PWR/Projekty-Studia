@@ -153,6 +153,7 @@ int main() {
         }
 
         int C[x][y];
+        int D[x][y];
 
         if (operacja=='+') {
             for (int i=0; i<x; i++) {
@@ -181,10 +182,11 @@ int main() {
             }
         }
 
-        else if (operacja=='T') {
+        else if (toupper(operacja)=='T') {
             for (int i=0; i<x; i++) {
                 for (int j=0; j<y; j++) {
                     C[j][i]=A[i][j];
+                    D[j][i]=B[i][j];
                 }
             }
         }
@@ -196,6 +198,19 @@ int main() {
             }
             printf("|\n");
         }
+
+        printf("\n");
+
+        if (toupper(operacja)=='T') {
+            for (int i=0; i<x; i++) {
+                printf("|");
+                for (int j=0; j<y; j++) {
+                    printf("%5d", D[i][j]);
+                }
+                printf("|\n");
+            }
+        }
+
     }
 }
 

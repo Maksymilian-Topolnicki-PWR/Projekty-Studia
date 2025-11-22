@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="Zadanie dodatkowe">
+    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="Zadanie dodatkowe zrobione">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" afterDir="false" />
@@ -43,6 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Maksymilian-Topolnicki-PWR"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Maksymilian-Topolnicki-PWR/Projekty-Studia.git",
+    "accountId": "d1d41a1c-c4f7-4c9f-8285-e35e0856749c"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -141,43 +153,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.Zadanie 1.c (1).executor": "Run",
-    "C/C++ File.Zadanie 1.c.executor": "Run",
-    "C/C++ File.Zadanie 1.cpp (1).executor": "Run",
-    "C/C++ File.Zadanie 1.cpp.executor": "Run",
-    "C/C++ File.Zadanie 2.c (1).executor": "Run",
-    "C/C++ File.Zadanie 2.c.executor": "Run",
-    "C/C++ File.Zadanie 3.c.executor": "Run",
-    "C/C++ File.Zadanie3.c (1).executor": "Run",
-    "C/C++ File.Zadanie3.c.executor": "Run",
-    "C/C++ File.Zadanie_dodatkowe.c.executor": "Run",
-    "CMake Application.C.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Maksymilian/Projekty-Studia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.Zadanie 1.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 1.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 1.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 2.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 2.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie 3.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie3.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie3.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Zadanie_dodatkowe.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Maksymilian/Projekty-Studia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\noenm\Desktop\ITE\ITE 2025-2026\Zadania - projekty\Podstawy programowania\C" />
@@ -279,7 +291,8 @@
       <workItem from="1763638089051" duration="891000" />
       <workItem from="1763735259543" duration="277000" />
       <workItem from="1763746661255" duration="40000" />
-      <workItem from="1763756001583" duration="5649000" />
+      <workItem from="1763756001583" duration="5661000" />
+      <workItem from="1763805381704" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Usuniecie blablabla">
       <option name="closed" value="true" />
@@ -305,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763756033500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zadanie dodatkowe zrobione">
+      <option name="closed" value="true" />
+      <created>1763762845951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763762845951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +341,8 @@
     <MESSAGE value="Usuniecie blablabla" />
     <MESSAGE value="Poprawa błędów i ulepszenie" />
     <MESSAGE value="Zadanie dodatkowe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie dodatkowe" />
+    <MESSAGE value="Zadanie dodatkowe zrobione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie dodatkowe zrobione" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

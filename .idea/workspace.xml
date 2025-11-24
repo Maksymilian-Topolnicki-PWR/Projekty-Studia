@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="Zadania na kolosa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +291,7 @@
       <workItem from="1763805381704" duration="687000" />
       <workItem from="1763806298833" duration="90000" />
       <workItem from="1764018175431" duration="543000" />
-      <workItem from="1764018730807" duration="1395000" />
+      <workItem from="1764018730807" duration="1782000" />
     </task>
     <task id="LOCAL-00001" summary="Usuniecie blablabla">
       <option name="closed" value="true" />
@@ -350,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764018265912</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Zadania na kolosa">
+      <option name="closed" value="true" />
+      <created>1764020141713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764020141713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

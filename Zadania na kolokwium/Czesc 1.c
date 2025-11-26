@@ -185,31 +185,68 @@ int main() {
     //     }
     // }
 
-    // i balblabla
+    // // i
+    // {
+    //     char a, b, c, d;
+    //     scanf("%c %c %c %c", &a, &b, &c, &d);
+    //     int licznik=0;
+    //     if (a>='0' && a<='9') {
+    //         licznik++;
+    //     }
+    //     if (b>='0' && b<='9') {
+    //         licznik++;
+    //     }
+    //     if (c>='0' && c<='9') {
+    //         licznik++;
+    //     }
+    //     if (d>='0' && d<='9') {
+    //         licznik++;
+    //     }
+    //     if (licznik>2) {
+    //         printf("Wiecej liczb");
+    //     }
+    //     else if (licznik<2){
+    //         printf("Wiecej liter");
+    //     }
+    //     else {
+    //         printf("Rowno liczb i cyfr");
+    //     }
+    // }
+
+
+    // j
     {
-        char a, b, c, d;
-        scanf("%c %c %c %c", &a, &b, &c, &d);
-        int licznik=0;
-        if (a>='0' && a<='9') {
-            licznik++;
+        float a, b, c, d;
+        float srednia;
+        scanf("%f %f %f %f", &a, &b, &c, &d);
+
+        if (a>b) {
+            float temp=a;
+            a=b;
+            b=temp;
         }
-        if (b>='0' && b<='9') {
-            licznik++;
+        if (c>d) {
+            float temp=c;
+            c=d;
+            d=temp;
         }
-        if (c>='0' && c<='9') {
-            licznik++;
+        if (a>c) {
+            float temp=a;
+            a=c;
+            c=temp;
         }
-        if (d>='0' && d<='9') {
-            licznik++;
+        if (b>d) {
+            float temp=b;
+            b=d;
+            d=temp;
         }
-        if (licznik>2) {
-            printf("Wiecej liczb");
+        if (b>c) {
+            float temp=b;
+            b=c;
+            c=temp;
         }
-        else if (licznik<2){
-            printf("Wiecej liter");
-        }
-        else {
-            printf("Rowno liczb i cyfr");
-        }
+        srednia=(b+c)/2.0;
+        printf("Srednia = %g", srednia);
+
     }
 }

@@ -26,8 +26,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="Zadania na kolosa">
+    <list default="true" id="486cfe9b-edd4-4d25-9974-edc2f1482463" name="Changes" comment="Usuniecie spacji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 3/Zadanie 1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania na kolokwium/Czesc 1.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +57,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -196,7 +177,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Czesc 1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projekty-Studia" TARGET_NAME="Czesc 1.c" CONFIG_NAME="Czesc 1.c">
+    <configuration name="Czesc 1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="Czesc 1.c" CONFIG_NAME="Czesc 1.c">
       <option name="sourceFile" value="Zadania na kolokwium\Czesc 1.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -227,12 +208,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.C" />
       <item itemvalue="C/C++ File.Czesc 1.c" />
       <item itemvalue="C/C++ File.Zadanie 1.c (1)" />
       <item itemvalue="C/C++ File.Zadanie 1.cpp (1)" />
       <item itemvalue="C/C++ File.Zadanie 2.c" />
       <item itemvalue="C/C++ File.Zadanie_dodatkowe.c" />
-      <item itemvalue="CMake Application.C" />
     </list>
     <recent_temporary>
       <list>
@@ -287,11 +268,8 @@
       <workItem from="1763735259543" duration="277000" />
       <workItem from="1763746661255" duration="40000" />
       <workItem from="1763756001583" duration="5661000" />
-      <workItem from="1763805381704" duration="687000" />
-      <workItem from="1763806298833" duration="90000" />
-      <workItem from="1764018175431" duration="543000" />
-      <workItem from="1764018730807" duration="1792000" />
-      <workItem from="1764020565516" duration="11000" />
+      <workItem from="1763805381704" duration="664000" />
+      <workItem from="1764080319063" duration="5253000" />
     </task>
     <task id="LOCAL-00001" summary="Usuniecie blablabla">
       <option name="closed" value="true" />
@@ -325,47 +303,7 @@
       <option name="project" value="LOCAL" />
       <updated>1763762845951</updated>
     </task>
-    <task id="LOCAL-00005" summary="Zadanie dodatkowe +">
-      <option name="closed" value="true" />
-      <created>1763806060161</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1763806060161</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Zadanie dodatkowe +">
-      <option name="closed" value="true" />
-      <created>1764018214469</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1764018214469</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Zadania na kolosa">
-      <option name="closed" value="true" />
-      <created>1764018265912</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1764018265912</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Zadania na kolosa">
-      <option name="closed" value="true" />
-      <created>1764020141713</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1764020141713</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Zadania na kolosa">
-      <option name="closed" value="true" />
-      <created>1764020533437</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1764020533437</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,9 +319,7 @@
     <MESSAGE value="Poprawa błędów i ulepszenie" />
     <MESSAGE value="Zadanie dodatkowe" />
     <MESSAGE value="Zadanie dodatkowe zrobione" />
-    <MESSAGE value="Zadanie dodatkowe +" />
-    <MESSAGE value="Zadania na kolosa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadania na kolosa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie dodatkowe zrobione" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
